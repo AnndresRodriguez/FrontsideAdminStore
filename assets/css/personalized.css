@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Carter+One|Crete+Round|Dancing+Script|PT+Serif');
+
+.navbar-personalized{
+
+	background: #680809;
+
+}
+
+h1, h2 {
+
+	font-family: 'Carter One', cursive;
+}
+
+
+.flex-row{
+
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+
+}
+
+.flex-column{
+
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+
+}
+
+
+.justify-center{
+
+	justify-content: center;
+
+}
+
+.justify-start{
+
+	justify-content: flex-start;
+
+}
+
+.justify-end{
+
+	justify-content: flex-end;
+
+}
+
+.justify-between{
+
+	justify-content: space-between;
+
+}
+
+.justify-around{
+
+	justify-content: space-around;
+
+}
+
+.align-center{
+
+	align-items: center;
+
+}
+
+.align-start{
+
+	align-items: flex-start;
+
+}
+
+.align-end{
+
+	align-items: end;
+
+}
+
+.align-around{
+
+	align-items: space-around;
+}
+
+.card--fecha,
+.card--fiabilidad{
+
+	margin-top: 10px;
+
+}
+
+.card--foto{
+
+	
+	height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    /*background: #ffcc2a;*/
+    background-image: url(../../img/silueta.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    border: solid #680809 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.button-add-client{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background: #ffcc2a;
+  cursor: pointer;
+
+}
+
+
+
+.button-add-client:hover{
+
+	background: #107348
+}
+
+.ml-30{
+
+	margin-left: 30px;
+
+}
+
+.centrado{
+
+	text-align: center;
+}
+
+
+/*--------------------------------*/
+.form-control, .asColorPicker-input,
+.dataTables_wrapper select,
+.jsgrid .jsgrid-table 
+.jsgrid-filter-row input[type=text],
+.jsgrid .jsgrid-table .jsgrid-filter-row select,
+.jsgrid .jsgrid-table .jsgrid-filter-row input[type=number],
+.select2-container--default .select2-selection--single,
+.select2-container--default 
+.select2-selection--single .select2-search__field,
+.tt-hint, .tt-query, .typeahead {
+   
+    background: #fff;
+}
+
+input, select{
+
+	background: white;
+	border: solid #340404 1px !important;
+
+}
+
+.input-edad{
+
+	width: 60px;
+
+}
+
+.input-cedula, .select-genero, .input-telefono{
+
+	width: 100px;
+}
+
+.modal-header{
+
+	background: #680809;
+	color: white;
+}
+
+.modal-body{
+
+	background: white;
+
+}
+
+.card-body:hover{
+
+	border: solid 2px #ffcc2a;
+}
+
+@media (max-width: 1353px){
+
+	.card--foto{
+
+	height: 100px;
+    width: 100px;
+    border-radius: 50%;
+   
+
+}
+
+}
+
+
